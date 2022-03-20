@@ -26,8 +26,6 @@ aside div{
     padding: 2em;
 }
 
-
-
 .main-header {
     display: flex;
     flex-direction: column;
@@ -35,9 +33,16 @@ aside div{
     margin-top: 2em;
 }
 
-footer img {
+.socials img {
     width: 30px;
+    height: 28px;
 }
+
+.contact img {
+    width: 30px;
+    height: 22px;    
+}
+
 .link-header nav ul{
     display: flex;
     justify-content: center;
@@ -57,11 +62,13 @@ a {
 
 .about-me img {
     width: 300px;
+    height: 500px;
 }
 
 
 aside .skillz img {
     width: 200px;
+    height: 25px;
 }
 
 aside .interests img {
@@ -69,8 +76,14 @@ aside .interests img {
     float: right;
 }
 
-.link-header img {
+.linkedhub img {
     width: 50px;
+    height: 40px;
+}
+
+.other img {
+    width: 50px;
+    height: 60px;
 }
 
 .chemical {
@@ -174,6 +187,28 @@ footer, .contact, .about-me {
     color: blueviolet;
 }
 
+.catchThief img {
+    width: 500px;
+    height: 500px;
+}
+
+.weatherly img {
+    width: 800px;
+    height: 500px;
+}
+
+.projs div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weatherly {
+    padding-right: 5em;
+}
+
+.projs div li {
+    width: 40%;
+}
 
 
 

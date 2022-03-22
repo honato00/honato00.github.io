@@ -193,20 +193,20 @@ footer, .contact, .about-me {
 }
 
 .weatherly img {
-    width: 800px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
 }
 
-.projs div {
+.projs ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .weatherly {
     padding-right: 5em;
 }
 
-.projs div li {
+.projs ul li {
     width: 40%;
 }
 

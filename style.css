@@ -169,45 +169,20 @@ footer, .contact, .about-me {
     clear: right;
 }
 
-.intro p {
-    text-align: justify;
+.projs ul {
+    display: flex;
+    flex-direction: column;
 }
 
-.intro img {
-    width: 50px;
-    float: right;
+.projs ul img {
+    width: 300px;
+    height: 200px;
 }
 
-.weatherly img{
-    width: 720px;
-}
 
 .projs li a {
     font-size: larger;
     color: blueviolet;
-}
-
-.catchThief img {
-    width: 500px;
-    height: 500px;
-}
-
-.weatherly img {
-    width: 600px;
-    height: 400px;
-}
-
-.projs ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.weatherly {
-    padding-right: 5em;
-}
-
-.projs ul li {
-    width: 40%;
 }
 
 
@@ -280,8 +255,38 @@ footer, .contact, .about-me {
          padding: 2em;
     }
     
+    .intro p {
+    text-align: justify;
+    }
+
     .intro img {
-        width: 100px
+        width: 50px;
+        float: right;
+    }
+
+
+
+    .catchThief img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .weatherly img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .projs ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .weatherly {
+        padding-right: 5em;
+    }
+
+    .projs ul li {
+        width: 40%;
     }
 
 
